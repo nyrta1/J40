@@ -19,8 +19,6 @@ public class DatabaseConnectionSingleton {
             );
         } catch (SQLException e) {
             e.printStackTrace();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
         }
     }
 
