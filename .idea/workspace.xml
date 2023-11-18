@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="193e4232-e933-4250-b4ee-5d59c420dfd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotificationSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/notifyer/SubscribedStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/adapter/DatabaseAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

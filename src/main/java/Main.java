@@ -7,18 +7,19 @@ import notifyer.SubscribedStudents;
 
 public class Main {
     public static void main(String[] args) {
-        CourseElementFactory factory = new CourseElementFactory();
-
-        CourseElement lesson = factory.createSubject("GoodBye!");
-
-        lesson.display();
-
-        User nurtai = new User("nurtai", "turlubekov");
-
-        CourseNotificationSystem notify = new CourseNotificationSystem();
-
-        new SubscribedStudents(nurtai, notify);
-
-        notify.setNews("Test message!");
+        DatabaseConnectionSingleton db = DatabaseConnectionSingleton.getInstance();
+//        CourseElementFactory factory = new CourseElementFactory();
+//
+//        CourseElement lesson = factory.createSubject("GoodBye!");
+//
+//        lesson.display();
+//
+//        User nurtai = new User("nurtai", "turlubekov");
+//
+//        CourseNotificationSystem notify = new CourseNotificationSystem();
+//
+//        new SubscribedStudents(nurtai, notify);
+//
+//        notify.setNews("Test message!");
     }
 }
