@@ -9,4 +9,13 @@ public class User {
     private String username;
     private String password;
     private Set<Role> roles;
+
+    public User(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
+    public String getName() {
+        return name;
+    }
 }

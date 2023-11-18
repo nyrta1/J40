@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="193e4232-e933-4250-b4ee-5d59c420dfd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factories/CourseElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factories/CourseElementFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factories/FactoryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotificationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/notifyer/SubscribedStudents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Lesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,15 +101,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
