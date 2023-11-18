@@ -1,12 +1,10 @@
-package DB;
+package db;
 
-import java.io.IOException;
 import java.sql.*;
 
 public class DatabaseConnectionSingleton {
     private static DatabaseConnectionSingleton instance;
     private Connection connection;
-
     private DatabaseConnectionSingleton()  {
         try {
             //  We are trying to verify in postgres that the database exists

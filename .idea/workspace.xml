@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="193e4232-e933-4250-b4ee-5d59c420dfd3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DB/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DB/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/UserRoleMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/DatabaseConnectionSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/DB/DatabaseConnectionSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/DatabaseConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/DB/DatabaseConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DB/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DatabaseConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DB/DatabaseConnectionSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DatabaseConnectionSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DB/DatabaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DatabaseConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Payment/PaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/PaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Payment/PaymentTypes/HalykBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/HalykBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Payment/PaymentTypes/JusanBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/JusanBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Payment/PaymentTypes/KaspiBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/KaspiBank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,6 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2YGeDBlipYMy5FEVkkBDnPpn4eL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +60,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>

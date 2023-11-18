@@ -1,6 +1,6 @@
-package Payment.PaymentTypes;
+package payment.payment_types;
 
-import Payment.PaymentStrategy;
+import payment.PaymentStrategy;
 
 public class KaspiBank implements PaymentStrategy {
     @Override

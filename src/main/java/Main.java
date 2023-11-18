@@ -1,4 +1,4 @@
-import DB.DatabaseConnectionSingleton;
+import db.DatabaseConnectionSingleton;
 
 public class Main {
     public static void main(String[] args) {
