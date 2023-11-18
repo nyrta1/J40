@@ -1,8 +1,18 @@
 package models;
 
-public class Subject {
+import factories.CourseElement;
+
+public class Subject implements CourseElement {
     private Long subjectId;
     private String subjectName;
     private Long costSubject;
 
+    public Subject(String subjectName) {
+        this.subjectName = subjectName;
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Subject: " + subjectName);
+    }
 }
