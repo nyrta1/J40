@@ -15,7 +15,14 @@ public class Users {
         this.surname = surname;
     }
 
+    public Users(String username) {
+        this.username = username;
+    }
+
     public String getName() {
         return name;
+    }
+    public String getUsername() {
+        return username;
     }
 }

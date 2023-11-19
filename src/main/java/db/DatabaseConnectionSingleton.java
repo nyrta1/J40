@@ -7,7 +7,6 @@ public class DatabaseConnectionSingleton {
     private Connection connection;
     private DatabaseConnectionSingleton()  {
         try {
-            //  We are trying to verify in postgres that the database exists
             DatabaseConfiguration.testingTheDatabase();
 
             this.connection = DriverManager.getConnection(

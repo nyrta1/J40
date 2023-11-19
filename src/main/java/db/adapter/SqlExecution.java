@@ -74,4 +74,30 @@ public class SqlExecution {
             e.printStackTrace();
         }
     }
+
+    protected boolean exist(String query) {
+        try (PreparedStatement statement = connection.prepareStatement(query)){
+            try (ResultSet resultSet = statement.executeQuery()) {
+                if (resultSet.next()) {
+                    int count = resultSet.getInt("custcount");
+                    return count > 0;
+                }
+            }
+            return false; // Return false if no result was found
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public Object[] getUserRole(String query) {
+        try (PreparedStatement statement = connection.prepareStatement(query)) {
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                return new String[]{resultSet.getString("roleStatus")};
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return new String[]{};
+    }
 }

@@ -5,15 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="193e4232-e933-4250-b4ee-5d59c420dfd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/DecryptStringProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/EncryptStringProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/PlainStringProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/StringProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/StringProviderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/BoughtSubject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/DatabaseConnectionSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/DB/DatabaseConnectionSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/DatabaseConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/DB/DatabaseConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/SqlExecution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/SqlExecution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/TxtReaderAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/TxtReaderAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUZ40/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/Payment/payment_types/HalykBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/Payment/payment_types/HalykBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/Payment/payment_types/JusanBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/Payment/payment_types/JusanBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/Payment/payment_types/KaspiBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/Payment/payment_types/KaspiBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/factories/CourseElementFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/factories/CourseElementFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/main/resources/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/models/BankCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/models/BankCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/models/Lesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/models/Lesson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/models/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/models/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/models/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/notifyer/CourseNotification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/notifyer/CourseNotificationSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/notifyer/SubscribedStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/notifyer/SubscribedStudents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DatabaseConnectionSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DatabaseConnectionSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DatabaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DatabaseConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/adapter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/adapter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/adapter/SqlExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/adapter/SqlExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/adapter/TxtReaderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/adapter/TxtReaderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factories/CourseElementFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factories/CourseElementFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/BankCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Lesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notifyer/J40Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotificationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notifyer/J40NotificationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/notifyer/SubscribedStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notifyer/SubscribedStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payment/payment_types/HalykBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/HalykBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payment/payment_types/JusanBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/JusanBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payment/payment_types/KaspiBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/KaspiBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +95,28 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Developer">
+    <configuration name="Developer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JUZ40" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JUZ40" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Student" />
+      <item itemvalue="Application.Developer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Developer" />
       </list>
     </recent_temporary>
   </component>

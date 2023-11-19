@@ -4,13 +4,20 @@ import factories.CourseElement;
 
 public class Lesson implements CourseElement {
     private Long id;
-    private Long lessonId;
-    private Long userId;
-    private Long subjectId;
+    private String subjectName;
     private String lessonTitle;
 
-    public Lesson(String lessonTitle) {
+    public Lesson(String subjectName, String lessonTitle) {
+        this.subjectName = subjectName;
         this.lessonTitle = lessonTitle;
+    }
+
+    public String getSubjectName() {
+        return subjectName;
+    }
+
+    public String getLessonTitle() {
+        return lessonTitle;
     }
 
     @Override

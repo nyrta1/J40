@@ -1,15 +1,13 @@
 package notifyer;
 
-import models.Users;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class CourseNotificationSystem implements CourseNotification {
+public class J40NotificationSystem implements J40Notification {
     private List<SubscribedStudents> students;
     private String courseNews;
 
-    public CourseNotificationSystem() {
+    public J40NotificationSystem() {
         this.students = new ArrayList<>();
     }
 
