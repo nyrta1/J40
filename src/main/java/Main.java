@@ -25,6 +25,6 @@ public class Main {
 //
 //        notify.setNews("Test message!");
         Converter c = new TxtReaderAdapter(new SqlExecution());
-        c.converterTxtToSql("select", new Object[0], "lesson");
+        c.converterTxtToSql("select", new Object[]{}, "users");
     }
 }

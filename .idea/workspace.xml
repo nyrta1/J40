@@ -6,22 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="193e4232-e933-4250-b4ee-5d59c420dfd3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/DatabaseAdapter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUZ40/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUZ40/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/main/resources/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/models/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/models/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/notifyer/SubscribedStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/notifyer/SubscribedStudents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/models/Users.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUZ40/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/adapter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/adapter/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/adapter/SqlExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/adapter/SqlExecution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/db/adapter/TxtReaderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/adapter/TxtReaderAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotificationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notifyer/CourseNotificationSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/notifyer/SubscribedStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notifyer/SubscribedStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/BankCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Lesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/UserRoleMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserRoleMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -3,7 +3,7 @@ package models;
 import java.util.Set;
 
 public class Users {
-    private Long ID;
+    private Long id;
     private String name;
     private String surname;
     private String username;

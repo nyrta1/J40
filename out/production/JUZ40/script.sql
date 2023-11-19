@@ -1,5 +1,6 @@
 CREATE TABLE BankCard (
-    cardId BIGINT PRIMARY KEY,
+    id BIGINT PRIMARY KEY,
+    cardId BIGINT,
     userId BIGINT,
     cardNumber VARCHAR(255),
     cvv VARCHAR(10),
@@ -7,19 +8,20 @@ CREATE TABLE BankCard (
 );
 
 CREATE TABLE Lesson (
-    lessonId BIGINT PRIMARY KEY,
+    id BIGINT PRIMARY KEY,
+    lessonId BIGINT,
     userId BIGINT,
     subjectId BIGINT,
     lessonTitle VARCHAR(255)
 );
 
 CREATE TABLE Role (
-    ID BIGINT PRIMARY KEY,
+    id BIGINT PRIMARY KEY,
     roleStatus VARCHAR(50)
 );
 
 CREATE TABLE "users" (
-    ID BIGINT PRIMARY KEY,
+    id BIGINT PRIMARY KEY,
     name VARCHAR(100),
     surname VARCHAR(100),
     username VARCHAR(100),
@@ -27,7 +29,8 @@ CREATE TABLE "users" (
 );
 
 CREATE TABLE Subject (
-    subjectId BIGINT PRIMARY KEY,
+    id BIGINT PRIMARY KEY,
+    subjectId BIGINT,
     subjectName VARCHAR(255),
     costSubject BIGINT
 );

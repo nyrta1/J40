@@ -3,6 +3,7 @@ package models;
 import factories.CourseElement;
 
 public class Subject implements CourseElement {
+    private Long id;
     private Long subjectId;
     private String subjectName;
     private Long costSubject;
