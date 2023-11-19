@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="193e4232-e933-4250-b4ee-5d59c420dfd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/DecryptStringProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/EncryptStringProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/PlainStringProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/StringProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/privacyguard/StringProviderDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/TxtReaderAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/DB/adapter/TxtReaderAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUZ40/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/main/resources/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/models/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/adapter/TxtReaderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/adapter/TxtReaderAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/BankCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Lesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/UserRoleMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserRoleMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JUZ40" />
@@ -77,23 +73,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
-      <module name="JUZ40" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.main.java.Main" />
       </list>
     </recent_temporary>
   </component>
