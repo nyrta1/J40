@@ -20,6 +20,12 @@ public class DatabaseConstants {
             case "lesson" -> {
                 return " (subjectName, lessonTitle) ";
             }
+            case "bankcard" -> {
+                return " (username, cardNumber, cvv, expiryDate) ";
+            }
+            case "boughtsubject" -> {
+                return " (username, subjectName) ";
+            }
             default -> {
                 return null;
             }

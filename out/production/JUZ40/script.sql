@@ -1,5 +1,3 @@
-
-
 CREATE TABLE BankCard (
     id BIGSERIAL PRIMARY KEY,
     username VARCHAR(255),
@@ -37,6 +35,12 @@ CREATE TABLE Lesson (
 CREATE TABLE UserRoleMapping (
     username VARCHAR(255),
     roleId BIGINT
+);
+
+CREATE TABLE boughtsubject (
+    id BIGSERIAL PRIMARY KEY,
+    username VARCHAR(255),
+    subjectName VARCHAR(255)
 );
 
 

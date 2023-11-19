@@ -5,12 +5,9 @@ import db.adapter.TxtReaderAdapter;
 import factories.CourseElement;
 import factories.CourseElementFactory;
 import models.BankCard;
-import models.Lesson;
-import models.Subject;
 import models.Users;
 import notifyer.J40NotificationSystem;
 import notifyer.SubscribedStudents;
-import privacyguard.DecryptStringProvider;
 import privacyguard.EncryptStringProvider;
 import privacyguard.PlainStringProvider;
 import privacyguard.StringProvider;
@@ -22,6 +19,7 @@ public class Main {
     private final static Scanner scanner = new Scanner(System.in);
     private static Users currentUser;
     private static J40NotificationSystem notify = new J40NotificationSystem();
+    private static String news;
     public static void main(String[] args) {
         // Initializing the db
         DatabaseConnectionSingleton.getInstance();
@@ -59,16 +57,19 @@ public class Main {
                 String userRole = userRoleArray.length > 0 ? userRoleArray[0] : "";
 
                 new SubscribedStudents(currentUser, notify);
-                notify.setNews("Only today there will be a discount of the whole subjects -15%!!!");
+                notify.setNews(news);
 
                 switch (userRole) {
                     case "ADMIN" -> {
+                        System.out.println("Entered as a admin.");
                         adminPage();
                     }
                     case "TEACHER" -> {
+                        System.out.println("Entered as a teacher.");
                         teacherPage();
                     }
                     case "STUDENT" -> {
+                        System.out.println("Entered as a student.");
                         studentPage();
                     }
                     default -> System.err.println("Invalid role!");
@@ -107,8 +108,7 @@ public class Main {
     }
 
     private static void studentPage() {
-        System.out.println("Entered as a student.");
-        System.out.println("1. Show all subjects \n2. Show subject content \n3. Subscribe to a subject \n0. Log out");
+        System.out.println("1. Show all subjects \n2. Show subject content \n3. Subscribe to a subject \n4. My subscribed subjects \n0. Log out");
         switch (scanner.nextInt()) {
             case 1 -> {
                 Converter converterStringToSQLCode = new TxtReaderAdapter(new SqlExecution());
@@ -149,6 +149,11 @@ public class Main {
                 System.out.println("Congrats! You've bought the subject: " + buying);
                 studentPage();
             }
+            case 4 -> {
+                System.out.println("My subscribed subjects: ");
+                Converter converterStringToSQLCode = new TxtReaderAdapter(new SqlExecution());
+                converterStringToSQLCode.converterTxtToSql("select", new Object[]{currentUser.getUsername()}, "boughtsubject");
+            }
             case 0 -> {
                 currentUser = null;
                 loginOrRegister();
@@ -158,7 +163,6 @@ public class Main {
     }
 
     private static void teacherPage() {
-        System.out.println("Entered as a teacher.");
         System.out.println("1. Create a course \n2. Create a lesson \n0. Log out");
         switch (scanner.nextInt()) {
             case 1 -> {
@@ -196,18 +200,20 @@ public class Main {
     }
 
     private static void adminPage() {
-        System.out.println("Entered as an admin. \n0. Log out");
-        System.out.println("1. Set news");
+        System.out.println("1. Set news \n0. Log out");
         switch (scanner.nextInt()) {
             case 1 -> {
                 System.out.println("Enter the news: ");
-                notify.setNews("Only today there will be a discount of the whole subjects -15%!!!");
+                news = scanner.next();
+                notify.setNews(news);
+                // "Only today there will be a discount of the whole subjects -15%!!!"
                 adminPage();
             }
             case 0 -> {
                 currentUser = null;
                 loginOrRegister();
             }
+            default -> System.out.println("Invalid choice");
         }
     }
 }

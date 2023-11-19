@@ -96,6 +96,11 @@ public class TxtReaderAdapter implements Converter {
                         "'";
                 return new Object[]{execute.exist(query)};
             }
+            case "usersSubscribedSubjects" -> {
+                String query = "SELECT * FROM " + tableName + " WHERE username = '" + inputs[0] +"'";
+                execute.select(query);
+                return new Object[]{};
+            }
             default -> System.err.println("[ TxtReaderAdapter ] Invalid method");
         }
         return new Object[]{};

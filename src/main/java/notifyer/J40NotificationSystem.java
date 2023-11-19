@@ -1,14 +1,16 @@
 package notifyer;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class J40NotificationSystem implements J40Notification {
-    private List<SubscribedStudents> students;
+    private Set<SubscribedStudents> students;
     private String courseNews;
 
     public J40NotificationSystem() {
-        this.students = new ArrayList<>();
+        this.students = new HashSet<>();
     }
 
     public void setNews(String news) {
