@@ -1,11 +1,11 @@
 package notifyer;
 
-import models.User;
+import models.Users;
 
 public class SubscribedStudents {
-    private User user;
+    private Users user;
 
-    public SubscribedStudents(User user, CourseNotification notify) {
+    public SubscribedStudents(Users user, CourseNotification notify) {
         this.user = user;
         notify.registerStudent(this);
     }

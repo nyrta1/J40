@@ -18,7 +18,7 @@ CREATE TABLE Role (
     roleStatus VARCHAR(50)
 );
 
-CREATE TABLE "User" (
+CREATE TABLE "users" (
     ID BIGINT PRIMARY KEY,
     name VARCHAR(100),
     surname VARCHAR(100),

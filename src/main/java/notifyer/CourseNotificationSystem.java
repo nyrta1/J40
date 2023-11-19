@@ -1,6 +1,6 @@
 package notifyer;
 
-import models.User;
+import models.Users;
 
 import java.util.ArrayList;
 import java.util.List;

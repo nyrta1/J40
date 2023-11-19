@@ -1,6 +1,6 @@
 package notifyer;
 
-import models.User;
+import models.Users;
 
 public interface CourseNotification {
     void registerStudent(SubscribedStudents user);

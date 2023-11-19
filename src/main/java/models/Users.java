@@ -2,7 +2,7 @@ package models;
 
 import java.util.Set;
 
-public class User {
+public class Users {
     private Long ID;
     private String name;
     private String surname;
@@ -10,7 +10,7 @@ public class User {
     private String password;
     private Set<Role> roles;
 
-    public User(String name, String surname) {
+    public Users(String name, String surname) {
         this.name = name;
         this.surname = surname;
     }

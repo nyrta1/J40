@@ -1,5 +1,5 @@
 package db.adapter;
 
 public interface Converter {
-    void converterTxtToSql();
+    void converterTxtToSql(String method, Object[] inputs, String tableNam);
 }

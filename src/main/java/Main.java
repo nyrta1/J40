@@ -1,7 +1,10 @@
 import db.DatabaseConnectionSingleton;
+import db.adapter.Converter;
+import db.adapter.SqlExecution;
+import db.adapter.TxtReaderAdapter;
 import factories.CourseElement;
 import factories.CourseElementFactory;
-import models.User;
+import models.Users;
 import notifyer.CourseNotificationSystem;
 import notifyer.SubscribedStudents;
 
@@ -21,5 +24,7 @@ public class Main {
 //        new SubscribedStudents(nurtai, notify);
 //
 //        notify.setNews("Test message!");
+        Converter c = new TxtReaderAdapter(new SqlExecution());
+        c.converterTxtToSql("select", new Object[0], "lesson");
     }
 }
