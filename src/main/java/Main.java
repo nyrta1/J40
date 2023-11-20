@@ -8,6 +8,10 @@ import models.BankCard;
 import models.Users;
 import notifyer.J40NotificationSystem;
 import notifyer.SubscribedStudents;
+import payment.PaymentStrategy;
+import payment.payment_types.HalykBank;
+import payment.payment_types.JusanBank;
+import payment.payment_types.KaspiBank;
 import privacyguard.EncryptStringProvider;
 import privacyguard.PlainStringProvider;
 import privacyguard.StringProvider;
@@ -18,7 +22,7 @@ import java.util.Scanner;
 public class Main {
     private final static Scanner scanner = new Scanner(System.in);
     private static Users currentUser;
-    private static J40NotificationSystem notify = new J40NotificationSystem();
+    private static final J40NotificationSystem notify = new J40NotificationSystem();
     private static String news;
     public static void main(String[] args) {
         // Initializing the db
@@ -129,6 +133,25 @@ public class Main {
                 Converter converterStringToSQLCode = new TxtReaderAdapter(new SqlExecution());
                 Object[] request = converterStringToSQLCode.converterTxtToSql("bankCardExists", new Object[]{currentUser.getUsername()}, "bankcard");
                 if (!(Boolean) request[0]){
+                    System.out.println("Enter the bank name: \n1.KaspiBank \n2.JusanBank \n3.HalykBank");
+                    String bankName = scanner.next();
+
+                    switch (bankName) {
+                        case "KaspiBank" -> {
+                            PaymentStrategy payment = new KaspiBank();
+                            payment.pay();
+                        }
+                        case "JusanBank" -> {
+                            PaymentStrategy payment = new JusanBank();
+                            payment.pay();
+                        }
+                        case "HalykBank" -> {
+                            PaymentStrategy payment = new HalykBank();
+                            payment.pay();
+                        }
+                        default -> System.out.println("Invalid choice");
+                    }
+
                     System.out.println("Enter your 16th bank card number:");
                     String bankCardNumbers = scanner.next();
                     System.out.println("Expires: ");
@@ -137,8 +160,8 @@ public class Main {
                     String cvv = scanner.next();
 
                     if (bankCardNumbers.length() == 16 && cvv.length() == 3){
-                        BankCard bankCard = new BankCard(currentUser.getUsername(), bankCardNumbers, cvv, expire);
-                        converterStringToSQLCode.converterTxtToSql("insert", new Object[]{bankCard.getUsername(), bankCard.getCardNumber(), bankCard.getCvv(), bankCard.getExpiryDate()}, "bankcard");
+                        BankCard bankCard = new BankCard(currentUser.getUsername(), bankCardNumbers, cvv, expire, bankName);
+                        converterStringToSQLCode.converterTxtToSql("insert", new Object[]{bankCard.getUsername(), bankCard.getCardNumber(), bankCard.getCvv(), bankCard.getExpiryDate(), bankCard.getBankName()}, "bankcard");
                     }
                 }
 
@@ -153,6 +176,7 @@ public class Main {
                 System.out.println("My subscribed subjects: ");
                 Converter converterStringToSQLCode = new TxtReaderAdapter(new SqlExecution());
                 converterStringToSQLCode.converterTxtToSql("select", new Object[]{currentUser.getUsername()}, "boughtsubject");
+                studentPage();
             }
             case 0 -> {
                 currentUser = null;

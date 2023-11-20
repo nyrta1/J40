@@ -3,7 +3,8 @@ CREATE TABLE BankCard (
     username VARCHAR(255),
     cardNumber VARCHAR(255),
     cvv VARCHAR(10),
-    expiryDate VARCHAR(20)
+    expiryDate VARCHAR(20),
+    bankName VARCHAR(20)
 );
 
 CREATE TABLE Role (

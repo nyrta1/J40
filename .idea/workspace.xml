@@ -6,14 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="193e4232-e933-4250-b4ee-5d59c420dfd3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/main/resources/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/notifyer/J40NotificationSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/notifyer/J40NotificationSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUZ40/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUZ40/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/DatabaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DatabaseConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/adapter/TxtReaderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/adapter/TxtReaderAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/notifyer/J40NotificationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notifyer/J40NotificationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/BankCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payment/payment_types/HalykBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/HalykBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payment/payment_types/JusanBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/JusanBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payment/payment_types/KaspiBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payment/payment_types/KaspiBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

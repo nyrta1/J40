@@ -6,12 +6,14 @@ public class BankCard {
     private String cardNumber;
     private String cvv;
     private String expiryDate;
+    private String bankName;
 
-    public BankCard(String username, String cardNumber, String cvv, String expiryDate) {
+    public BankCard(String username, String cardNumber, String cvv, String expiryDate, String bankName) {
         this.username = username;
         this.cardNumber = cardNumber;
         this.cvv = cvv;
         this.expiryDate = expiryDate;
+        this.bankName = bankName;
     }
 
     public String getUsername() {
@@ -28,5 +30,9 @@ public class BankCard {
 
     public String getExpiryDate() {
         return expiryDate;
+    }
+
+    public String getBankName() {
+        return bankName;
     }
 }
